@@ -15,7 +15,7 @@ export const info = {
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '☕',
             text: 'fueled by coffee'
@@ -40,7 +40,7 @@ export const info = {
             label: 'facebook'
         },
         {
-            link: "https://instagram.com/vrndrrwt",
+            link: "https://instagram.com/virendrasinghrawatonline",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
@@ -50,7 +50,7 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://linkedin.com/in/vrndrrwwt",
+            link: "https://linkedin.com/in/vrndrrwt",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
@@ -61,7 +61,7 @@ export const info = {
         }
 
     ],
-    bio: "Hello! I'm Virendra Singh Rawat. I'm a aspiring a Software Engineer. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Virendra Singh Rawat. I'm a aspiring a Software Engineer. You should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'Django'],
@@ -91,31 +91,31 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/vrndrrwt", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "",
+            source: "https://github.com/vrndrrwt",
             image: mock2
         },
         {
             title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "",
+            source: "https://github.com/vrndrrwt",
             image: mock3
         },
         {
             title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "",
+            source: "https://github.com/vrndrrwt",
             image: mock4
         },
         {
             title: "Project 5",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/vrndrrwt",
             image: mock5
         }
