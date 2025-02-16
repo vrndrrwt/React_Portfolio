@@ -1,5 +1,5 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock.png"
+import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
@@ -8,9 +8,9 @@ import mock5 from "../img/mock5.png"
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
 export const info = {
-    firstName: "Virendra Singh Rawat",
-    lastName: "",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: " Virendra Singh ",
+    lastName: " Rawat ",
+    initials: "vs", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -19,14 +19,6 @@ export const info = {
         {
             emoji: '🌎',
             text: 'India'
-        },
-        {
-            emoji: "💼",
-            text: "BTU"
-        },
-        {
-            emoji: "📧",
-            text: "vrndrrwtt@gmail.com"
         }
     ],
     socials: [
@@ -42,7 +34,7 @@ export const info = {
         }
 
     ],
-    bio: "Hello! I'm Virendra Singh Rawat. I'm a aspiring a Software Engineer. You should hire me!",
+    bio: "Hello! I'm Virendra Singh Rawat. I'm a aspiring Software Engineer. You should hire me!",
     skills:
         {
             proficientWith: ['Javascript', 'React', 'Git', 'Github', 'Bootstrap', 'Html5', 'CSS3', 'Django'],
@@ -70,7 +62,7 @@ export const info = {
             title: "Project 1",
             live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/vrndrrwt", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock
+            image: mock1
         },
         {
             title: "Project 2",
