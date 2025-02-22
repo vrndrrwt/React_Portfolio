@@ -60,20 +60,20 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/vrndrrwt", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://reactportfolio-hazel.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/vrndrrwt/React_Portfolio", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Project 2",
             live: "",
-            source: "https://github.com/vrndrrwt",
+            source: "https://github.com/vrndrrwt/Clock",
             image: mock2
         },
         {
             title: "Project 3",
             live: "",
-            source: "https://github.com/vrndrrwt",
+            source: "https://github.com/vrndrrwt/WeatherSense",
             image: mock3
         },
         {
@@ -85,7 +85,7 @@ export const info = {
         {
             title: "Project 5",
             live: "",
-            source: "https://github.com/vrndrrwt",
+            source: "https://github.com/vrndrrwt/Netflix_Home_Page.git",
             image: mock5
         }
     ]
