@@ -10,15 +10,14 @@ export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 export const info = {
     firstName: " Virendra Singh ",
     lastName: " Rawat ",
-    initials: "vs", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "home", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [
         {
-            emoji: '🌎',
-            text: 'India'
+            
         }
     ],
     socials: [
