@@ -37,3 +37,31 @@ img {
 ul {
     list-style-type: none;
 }
+
+.skills {
+    margin-left: 1rem;
+    list-style-type: square;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .hobbies {
+    list-style: none;
+    padding-left: 1rem;
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+  }
+  
+  .green {
+    color: #00ff00;
+  }
+  
+  .bioText {
+    margin-top: 0.5rem;
+    color: #444;
+    font-size: 1rem;
+  }
+  
